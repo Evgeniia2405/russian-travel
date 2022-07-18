@@ -1,6 +1,6 @@
 .place__paragraph {
   line-height: 1.63;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #FFFFFF;
@@ -9,21 +9,6 @@
 .place__paragraph:last-of-type {
   margin: 0;
 }
-
-@media screen and (min-width: 635px) {
-.place__paragraph:first-of-type:before {
-  content: " ";
-  float: left;
-  width: calc((100% - 12px)/2 + 6px);
-  height: calc((85vw - 12px)/2 + 6px);
-}
-}
-
-@media screen and (min-width: 768px) {
-  .place__paragraph:first-of-type:before {
-    display: none;
-  }
-  }
 
 @media screen and (min-width: 1024px) {
   .place__paragraph {

@@ -3,7 +3,8 @@
     padding: 0;
     list-style: none;
     position: relative;
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
     gap: 18px;
   }
 

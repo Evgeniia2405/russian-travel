@@ -1,6 +1,6 @@
-.footer__container {
-  max-width: 90%;
-  margin: 64px auto 24px auto;
+.footer {
+  width: 90%;
+  margin: 64px 0 24px 5%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -8,8 +8,8 @@
 }
 
 @media screen and (min-width: 700px) {
-  .footer__container {
-    max-width: 95%;
+  .footer {
+    width: 95%;
     margin: 88px auto 24px auto;
     align-items: center;
     flex-direction: row;
@@ -17,26 +17,24 @@
 }
 
 @media screen and (min-width: 768px) {
-  .footer__container {
-    max-width: 720px;
-    margin: 88px auto 24px auto;
-    align-items: center;
-    flex-direction: row;
+  .footer {
+    width: 93.75%;  /*720px */
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .footer__container {
+  .footer {
     max-width: 928px;
     margin: 92px auto 24px auto;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .footer__container {
+  .footer {
     max-width: 1184px;
-    margin: 92px auto 24px auto;
   }
 }
+
+
 
 

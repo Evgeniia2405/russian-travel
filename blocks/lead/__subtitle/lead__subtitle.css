@@ -1,13 +1,12 @@
 .lead__subtitle {
   margin: 16px auto 40px auto;
-  max-width: 90%;
+  max-width: 288px;
   color: #FFFFFF;
   line-height: 1.25;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 400;
   text-align: center;
-  white-space: pre-line;
 }
 
 
