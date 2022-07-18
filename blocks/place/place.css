@@ -1,0 +1,66 @@
+.place {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(fit-content auto);
+  grid-template-areas:
+  "place__title"
+  "place__website"
+  "place__image"
+  "place__text";
+  gap: 32px;
+  box-sizing: border-box;
+  align-items: start;
+  justify-items: start;
+}
+
+
+@media screen and (min-width: 635px) {
+  .place {
+    display: grid;
+    grid-template-columns: calc((100% - 12px)/2 - 6px) 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 32px 16px;
+    box-sizing: border-box;
+    align-items: start;
+    justify-items: start;
+    align-self: start;
+   }
+
+  .place:last-of-type {
+    margin-bottom: -64px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .place {
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+    "place__title place__website"
+    "place__image place__text";
+    gap: 48px 28px;
+    box-sizing: border-box;
+    align-items: start;
+    justify-items: start;
+    align-self: start;
+  }
+
+  .place:last-of-type {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place {
+    grid-template-columns: 440px 1fr;
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    grid-template-columns: 460px 1fr;
+    gap: 48px 40px;
+  }
+}

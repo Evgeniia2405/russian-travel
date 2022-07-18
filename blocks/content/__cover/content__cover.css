@@ -1,0 +1,28 @@
+.content__cover {
+  margin: 66px auto 0;
+  max-width: 1184px;
+  min-height: 200px;
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .content__cover {
+    margin: 90px auto 0;
+    display: flex;
+    max-height: 480px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content__cover {
+    margin: 92px auto 0;
+    display: flex;
+    max-height: 640px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .content__cover {
+    max-height: 740px;
+  }
+}

@@ -1,0 +1,14 @@
+.header__lang-links {
+    margin: 15px 0 0 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    display: inline-flex;
+    gap: 18px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .header__lang-links {
+      margin: 20px 0 0 0;
+    }
+  }
