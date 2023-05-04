@@ -1,44 +1,7 @@
-# Проект: Путешествие по России
+### Проект: Путешествие по России
 
-### Блоки
-* Header
-* lead
-* intro
-* photo-grid
-* places
-* cover
-* footer
-
-**Header**
-
-Шапка файла
-!!! Предстоит активировать переключать языков
-
-**lead**
-
-Заглавный блок с заголовком
-
-**intro**
-
-Вводный текст
-
-**photo-grid**
-
-Сетка с картинками, применен grid
-
-**places**
-
-Описание мест с картинкой, применен grid
-
-**cover**
-
-Картинка-ссылка
-
-**footer**
-
-подвал сайта
-
-
-* [Ссылка на сайт](https://evgeniia2405.github.io/russian-travel/)
-
-
+Сайт о путешествии по России.</br>
+Стек: HTML, CSS. Применены технологии адаптивной верстки и grid сетки.</br>
+Функциональность: Страница состоит из header, lead, intro, photo-grid, places, cover, footer. Работает в браузерах: Opera, FireFox, Google Chrome, Yandex Browser.</br>
+Ссылка на репозиторий:
+[Ссылка на проект](https://evgeniia2405.github.io/russian-travel/)
